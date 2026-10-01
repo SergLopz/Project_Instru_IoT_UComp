@@ -1,0 +1,11 @@
+[project]
+name = "project-instru-iot-ucomp"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "streamlit>=1.64.0",
+    "streamlit-autorefresh>=1.0.1",
+]

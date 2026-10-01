@@ -1,0 +1,12 @@
+# --- ENTORNO Y DEPENDENCIAS LOCALES DE PYTHON ---
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- ARCHIVOS TEMPORALES Y DE CONFIGURACIÓN DE IDEs/EDITORES ---
+.vscode/
+
+# -- General ---
+comandos.md
