@@ -38,7 +38,7 @@ const long interval = 5000; // Intervalo de envío en milisegundos (5 segundos)
 void setup_wifi() {
   delay(10);
   Serial.println();
-  Serial.print("Conectando a la red Wi-Fi: ");
+  Serial.print("(g1_ventana) Conectando a la red Wi-Fi: ");
   Serial.println(ssid);
 
   WiFi.begin(ssid, password);

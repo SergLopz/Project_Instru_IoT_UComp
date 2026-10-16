@@ -39,7 +39,7 @@ int estadoIrAnt = -1;
 void setup_wifi() {
   delay(10);
   Serial.println();
-  Serial.print("Conectando a la red Wi-Fi: ");
+  Serial.print("(g2_puerta) Conectando a la red Wi-Fi: ");
   Serial.println(ssid);
 
   WiFi.begin(ssid, password);
